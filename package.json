@@ -1,0 +1,25 @@
+{
+  "name": "whois",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "scripts": {
+    "start": "babel-node lib/app.js",
+    "start:nodemon": "nodemon --exec babel-node lib/app.js",
+    "test": "babel-node test/client.js",
+    "test:nodemon": "nodemon --exec babel-node test/client.js"
+  },
+  "keywords": [],
+  "author": "JayPY.Code <jaypy.code@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "rayconnect-client": "^0.9.9",
+    "whois-json": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  }
+}
